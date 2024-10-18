@@ -1,4 +1,4 @@
-# 🕵️‍♀️ Détecteur de SPAM AT&T
+# 🕵️‍♀️ AT&T Spam Detector
 
 ## 📇 Company's Description
 
