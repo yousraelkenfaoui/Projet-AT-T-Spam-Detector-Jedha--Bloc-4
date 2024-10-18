@@ -1,58 +1,51 @@
 # 🕵️‍♀️ Détecteur de SPAM AT&T
 
-## 📇 Description de l'entreprise
+## 📇 Company's Description
 
-**AT&T Inc.** est une entreprise multinationale américaine de télécommunications dont le siège est situé à Whitacre Tower, dans le centre-ville de Dallas, Texas. C'est la plus grande entreprise de télécommunications au monde en termes de revenus et le troisième plus grand fournisseur de services de téléphonie mobile aux États-Unis. En 2022, AT&T se classait au 13e rang du classement Fortune 500 des plus grandes entreprises américaines avec des revenus de 168,8 milliards de dollars ! 😮
-
----
-
-## 🚧 Projet
-
-Un des principaux problèmes auxquels les utilisateurs d'AT&T sont confrontés est l'exposition constante aux messages SPAM.
-
-AT&T a été en mesure de signaler manuellement les messages SPAM pendant un certain temps, mais elle cherche maintenant à automatiser la détection des SPAMs pour protéger ses utilisateurs.
+**AT&T Inc.** is an American multinational telecommunications holding company headquartered at Whitacre Tower in Downtown Dallas, Texas. It is the world's largest telecommunications company by revenue and the third largest provider of mobile telephone services in the U.S. As of 2022, AT&T was ranked 13th on the Fortune 500 rankings of the largest United States corporations, with revenues of $168.8 billion! 😮
 
 ---
 
-## 🎯 Objectifs
+## 🚧 Project
 
-L'objectif est de créer un détecteur de SPAM, capable de signaler automatiquement les SPAMs en se basant uniquement sur le contenu des SMS.
+One of the main pain point that AT&T users are facing is constant exposure to SPAM messages.
+
+AT&T has been able to manually flag spam messages for a time, but they are looking for an automated way of detecting spams to protect their users.
 
 ---
 
-## 🖼️ Portée du projet
+## 🎯 Goals
 
-Pour commencer, AT&T souhaite que vous utilisiez le dataset suivant :
+Your goal is to build a spam detector, that can automatically flag spams as they come based solely on the sms' content.
+
+---
+
+## 🖼️ Scope of this project
+
+To start off, AT&T would like you to use the folowing dataset:
 
 - **[AT&T Dataset](#)**
 
 ---
 
-## 📬 Livrable
+## 🦮 Helpers 
 
-Pour compléter ce projet, votre équipe doit :
+To help you achieve this project, here are a few tips that should help you:
 
-1. Écrire un notebook qui exécute le prétraitement et entraîne un ou plusieurs modèles de deep learning afin de prédire la nature SPAM ou non (ham) du SMS.
-2. Indiquer clairement les performances obtenues.
+### Start simple
+A good deep learing model does not necessarily have to be super complicated!
+
+### Transfer learning
+You do not have access to a whole lot of data, perhaps channeling the power of a more sophisticated model trained on billions of observations might help!
 
 ---
 
-## Étapes de Réalisation
+## 📬 Deliverable
 
-1. **Prétraitement des Données**
-   - **Nettoyage** : Supprimer les caractères inutiles, convertir le texte en minuscules et tokeniser.
-   - **Encodage des Étiquettes** : Convertir les étiquettes SPAM/ham en valeurs numériques.
+To complete this project, your team should:
 
-2. **Développement du Modèle**
-   - **Modèle de Base** : Réseau de neurones simple.
+Write a notebook that runs preprocessing and trains one or more deep learning models in order to predict the spam or ham nature of the sms
+State the achieved performance clearly
 
-3. **Évaluation**
-   - Utilisation de métriques telles que l'accuracy, le score F1, la précision et le recall pour évaluer l'efficacité du modèle.
 
-4. **Optimisation**
-   - Ajuster les hyperparamètres et expérimentez différentes architectures de modèles pour améliorer les performances.
-
-### Résultats Attendus
-
-- Un modèle de deep learning entraîné capable de détecter et signaler efficacement les messages SPAM en fonction du contenu des SMS.
 
